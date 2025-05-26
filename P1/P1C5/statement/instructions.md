@@ -19,3 +19,17 @@ The prints should be in the following format:
 * "Type age: `type of the age variable`"
 * "Type height: `type of the height variable`"
 * "Type is student: `type of the is_student variable`"
+
+name = "Alice"
+age = 26
+height = 167
+is_student = True
+print(f"name: {name}")
+print(f"age: {age}")
+print(f"height: {height}")
+print(f"is_student: {is_student}")
+
+print(f"Type name: {type(name)}")
+print(f"Type age: {type(age)}")
+print(f"Type height: {type(height)"}
+print(f"Type is_student: {type(is_student)}")
